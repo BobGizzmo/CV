@@ -12,6 +12,10 @@ header{
 	justify-content: space-between;
 	padding: 15px;
 	margin-bottom: 20px;
+  background: -webkit-linear-gradient(top, #C0C0C0, white);
+  background: -o-linear-gradient(top, #C0C0C0, white);
+  background: -ms-linear-gradient(top, #C0C0C0, white);
+  background: -moz-linear-gradient(top, #C0C0C0, white);
 }
 #block_nom{
 	border-right: 2px solid maroon;
