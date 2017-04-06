@@ -10,7 +10,7 @@ h3 {
   border-radius: 5px;
   padding: 5px; }
 
-.progress {
+#progress {
   display: flex;
   flex-direction: column;
   margin-left: 5px;
@@ -124,7 +124,7 @@ header {
 #Corps_page {
   display: flex;
   justify-content: space-between;
-  height: 1000px; }
+  margin-bottom: 50px; }
 
 article {
   padding: 20px;
@@ -170,6 +170,100 @@ footer {
   width: 50%;
   padding: 20px; }
 
+#divOCR div {
+  display: flex; }
+  #divOCR div div {
+    display: flex;
+    align-items: center;
+    margin: 2px; }
+
 /* RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE //
  RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE //
   RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE // RESPONSIBLE //*/
+@media screen and (max-width: 600px) {
+  body {
+    text-align: center; }
+
+  #block_page {
+    margin: auto;
+    width: 90%;
+    padding: 0; }
+    #block_page h3 {
+      margin-bottom: 0; }
+
+  header {
+    display: block; }
+    header #cadrePrenom {
+      margin-left: 0; }
+      header #cadrePrenom h1 {
+        font-size: 2em; }
+    header #block_nom {
+      text-align: left;
+      display: block;
+      margin-left: auto;
+      display: none; }
+      header #block_nom h2 {
+        width: 150%; }
+      header #block_nom p {
+        width: 250px;
+        line-height: 25px; }
+      header #block_nom #cadrePrenom {
+        text-align: center; }
+    header img {
+      display: none; }
+
+  #Corps_page {
+    display: block;
+    width: 100%;
+    margin-bottom: 0; }
+    #Corps_page #divXP {
+      display: none; }
+    #Corps_page .XP {
+      width: auto;
+      padding-top: 0;
+      padding-right: 20px;
+      padding-bottom: 0;
+      padding-left: 20px;
+      text-align: left;
+      border: none; }
+      #Corps_page .XP h3 {
+        text-align: center; }
+
+  .competence {
+    width: auto;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    height: 700px; }
+    .competence #progress {
+      margin: auto;
+      display: none; }
+      .competence #progress .progressbarre {
+        width: auto;
+        text-align: left; }
+
+  footer {
+    flex-direction: column; }
+    footer h3 {
+      text-align: center;
+      margin-bottom: 0; }
+    footer .foot {
+      width: auto;
+      padding-top: 0;
+      padding-right: 20px;
+      padding-bottom: 0;
+      padding-left: 20px; }
+      footer .foot table {
+        margin-top: 20px;
+        display: none; }
+    footer #divOCR {
+      margin-top: 20px;
+      display: none; }
+      footer #divOCR div {
+        display: flex;
+        flex-direction: column; }
+        footer #divOCR div div {
+          display: flex;
+          align-items: center;
+          margin: 2px; } }

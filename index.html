@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<meta charset="utf-8" name="viewport" content="width=device-width" />
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"> 
 			<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Roboto" rel="stylesheet"> 
 			<link rel="stylesheet" type="text/css" href="style/css/style.css" />
@@ -29,8 +30,8 @@
 				</header>
 				<section id="Corps_page">
 					<div class="XP">
-						<h3>EXPERIENCES PROFESSIONNELLE</h3>
-						<div style="padding-top: 30px;">
+						<h3 id="titreXpPro">EXPERIENCES PROFESSIONNELLE</h3>
+						<div id="divXP" style="padding-top: 30px; width: 90%; margin:auto;">
 							<div>
 								<h4>Juillet - Aout 2008</h4>
 								<p>Vendeur multimédia (LECLERC Avermes)</p>
@@ -78,8 +79,8 @@
 						</div>
 					</div>
 					<div class="competence">
-						<h3>COMPÉTENCES</h3>
-						<div class="progress">
+						<h3 id="titreCompetence">COMPÉTENCES</h3>
+						<div id="progress">
 							<div class="progressbarre blue stripes"><span style="width: 90%">HTML</span></div>
 							<div class="progressbarre jaune stripes"><span style="width: 90%">CSS3</span></div>
 							<div class="progressbarre vert stripes"><span style="width: 90%">SCSS</span></div>
@@ -95,8 +96,8 @@
 				<footer>
 					<div class="foot">	
 						<div>		
-							<h3>FORMATION</h3>
-							<table>
+							<h3 id="titreFormation">FORMATION</h3>
+							<table id="tableFormation">
 								<tr>
 									<td><strong>Année scolaire 2008</strong></td>
 									<td>BEP MPMI(Métiers de la production mécanique informatisées)</td>
@@ -112,44 +113,48 @@
 							</table>
 						</div>	
 						<div>						
-							<h3>LOISIRS</h3>
-							<table>
+							<h3 id="titreLoisirs">LOISIRS</h3>
+							<table id="tableLoisirs">
 								<tr><td>Guitare(groupe)</td></tr>
 								<tr><td>Programmation</td></tr>
 							</table>
 						</div>
 					</div>
 					<div class="foot" >	
-						<h3>CERTIFICAT OPENCLASSROOMS</h3>
+						<h3 id="titreOCR">CERTIFICAT OPENCLASSROOMS</h3>
 						<div>
-							<table>
-								<tr>
-									<td><strong>HTML5/CSS3: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/4501980573" title="HTML5/CSS3" >openclassrooms.com/course-certificates/4501980573</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywhEAY1w7rJhg7uNIsfv6xE%252B3sx6Pw4UY%252FdeuXOZTa9S3' alt='QR Code' width="50px"/></a></td>
-								</tr>
-								<tr>
-									<td><strong>BootStrap: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/4875094350" title="Bootstrap" >openclassrooms.com/course-certificates/4875094350</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywkqTXk6kK6gn1OuPRv6PSRk5oT%252FwmbvXoA%252FUGlq4fOlE' alt='QR Code' width="50px"/></a></td>
-								</tr>		
-								<tr>
-									<td><strong>Javascript: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/6684885923" title="JavaScript" >openclassrooms.com/course-certificates/6684885923</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywgOby1feYiy4mEEWDKbJbaEuy5E69a446iRXfCbd6old' alt='QR Code' width="50px"/></a></td>
-								</tr>
-								<tr>
-									<td><strong>WordPress: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/2432318812" title="wordpress">openclassrooms.com/course-certificates/2432318812</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywn7MtA4n9VqwZsKeFwPhJASzHM%252B4E9eyMRcnAxs516Co' alt='QR Code' width="50px" /></a></td>
-								</tr>
-								<tr>
-									<td><strong>PHP: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/3456211774" title="PHP">openclassrooms.com/course-certificates/3456211774</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywlMw%252BMlfAlqCoUBYiDSoOrKJ5vxP9%252BqR5A4eGuBhK2R5' alt='QR Code' width="50px"/></a></td>
-								</tr>	
-								<tr>
-									<td><strong>Ruby: </strong></td>
-									<td style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/3217262574" title="Ruby">openclassrooms.com/course-certificates/3217262574</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywkGdsrUqIJAHp7pmKmXP4qyEs7K2F92fBERBH5F1%252BVFE' alt='QR Code' width="50px"/></a></td>
-								</tr>	
-							</table>
+							<div id="divOCR">
+								<div>
+									<div><strong>HTML5/CSS3: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/4501980573" title="HTML5/CSS3" >openclassrooms.com/course-certificates/4501980573</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywhEAY1w7rJhg7uNIsfv6xE%252B3sx6Pw4UY%252FdeuXOZTa9S3' alt='QR Code' width="50px"/></a></div>
+								</div>
+								<div>
+									<div><strong>BootStrap: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/4875094350" title="Bootstrap" >openclassrooms.com/course-certificates/4875094350</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywkqTXk6kK6gn1OuPRv6PSRk5oT%252FwmbvXoA%252FUGlq4fOlE' alt='QR Code' width="50px"/></a></div>
+								</div>		
+								<div>
+									<div><strong>Javascript: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/6684885923" title="JavaScript" >openclassrooms.com/course-certificates/6684885923</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywgOby1feYiy4mEEWDKbJbaEuy5E69a446iRXfCbd6old' alt='QR Code' width="50px"/></a></div>
+								</div>
+								<div>
+									<div><strong>WordPress: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/2432318812" title="wordpress">openclassrooms.com/course-certificates/2432318812</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywn7MtA4n9VqwZsKeFwPhJASzHM%252B4E9eyMRcnAxs516Co' alt='QR Code' width="50px" /></a></div>
+								</div>
+								<div>
+									<div><strong>PHP: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/3456211774" title="PHP">openclassrooms.com/course-certificates/3456211774</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywlMw%252BMlfAlqCoUBYiDSoOrKJ5vxP9%252BqR5A4eGuBhK2R5' alt='QR Code' width="50px"/></a></div>
+								</div>	
+								<div>
+									<div><strong>Ruby: </strong></div>
+									<div style="display:flex; align-items: center;"><a href="https://openclassrooms.com/course-certificates/3217262574" title="Ruby">openclassrooms.com/course-certificates/3217262574</a><a href='http://www.unitag.io/qrcode'><img src='http://www.unitag.io/qreator/generate?crs=xnjFkEn%252FP85fCPDXJ%252FXXKnPnKU%252FtWVh9E7ei8Ex%252BR4XsTvus59MiRl4OtJ5Y%252F3aRXopA7Qn4wJ6m3qLfsP4IWv39ocSd3mMczmj1AuyiW6K%252F58n8n8s5NK61vAUi6GUR9QhYs1xUoNWG3PC4owAgU1Q%252FHThW3FIfdeEUqZ%252BlJgc%253D&crd=fhOysE0g3Bah%252BuqXA7NPQ9Gdrl07mrZrqRYIZaV644U1DCjArpol3is3CiM9lmYfZTO3SNX5%252BROmJaD8MUwywkGdsrUqIJAHp7pmKmXP4qyEs7K2F92fBERBH5F1%252BVFE' alt='QR Code' width="50px"/></a></div>
+								</div>	
+							</div>
 						</div>
 				</footer>
 			</div>
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+			  <script src='js/script.js'></script>
 		</body>
 	</html>	
