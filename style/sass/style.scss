@@ -237,17 +237,16 @@ footer{
       #block_nom{
         text-align: left;
         display: block;
-        margin-left:auto;
-        display: none;
+        margin-top: 20px;
+        margin-left:10%;
+        text-align: center;
         h2{
           width: 150%;
+          display: none;
         }
         p{
           width: 250px;
           line-height: 25px;
-        }
-        #cadrePrenom{
-          text-align: center;
         }
       }
       img{

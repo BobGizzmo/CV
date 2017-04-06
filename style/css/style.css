@@ -200,15 +200,15 @@ footer {
     header #block_nom {
       text-align: left;
       display: block;
-      margin-left: auto;
-      display: none; }
+      margin-top: 20px;
+      margin-left: 10%;
+      text-align: center; }
       header #block_nom h2 {
-        width: 150%; }
+        width: 150%;
+        display: none; }
       header #block_nom p {
         width: 250px;
         line-height: 25px; }
-      header #block_nom #cadrePrenom {
-        text-align: center; }
     header img {
       display: none; }
 
